@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[INFORMACION] (
+  [NUM_CONTROL] [char](8) NOT NULL,
+  [APE_P] [varchar](50) NOT NULL,
+  [APE_M] [varchar](50) NOT NULL,
+  [NOMBRE] [varchar](50) NOT NULL,
+  [EDAD] [smallint] NULL,
+  [GENERO] [varchar](50) NULL,
+  CONSTRAINT [PK_INFORMACION_NUM_CONTROL] PRIMARY KEY CLUSTERED ([NUM_CONTROL])
+)
+ON [PRIMARY]
+GO
